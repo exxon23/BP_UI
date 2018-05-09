@@ -1,2 +1,2 @@
-See UI_SHOW to see how is the home station working
+Watch UI_SHOW in root folder to see how is the home station working
 
