@@ -1,0 +1,79 @@
+.doorbell-buttons {
+    text-align: center;
+    margin: 10px 30px;    
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.doorbell-button {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #495057;
+    font-size: 12px;
+    text-align: center;
+    width: 70px;
+    font-weight: bold;
+}
+
+.start-stream-btn {
+    border-radius: 50px;
+    background-color:#E5002A;
+    color:white;
+    height:50px;
+    width:50px;
+    border: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #E5002A;
+    margin: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.snapshot-btn {
+    border-radius: 50px;
+    background-color:#E5002A;
+    color:white;
+    height:50px;
+    width:50px;
+    border: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #E5002A;
+    margin: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.snapshot-btn:hover {
+    background-color:rgba(255, 255, 255, 0);
+    color:#E5002A;
+    border: solid 1px#E5002A;
+  }
+  
+.start-stream-btn:hover {
+    background-color:rgba(255, 255, 255, 0);
+    color:#E5002A;
+    border: solid 1px #E5002A;
+}
+
+.material-icons.stream {
+    color: white;
+}
+
+.doorbell-buttons a {
+    text-decoration: none;
+    color:white;   
+}
+
+.doorbell-buttons a:hover,
+.doorbell-buttons a:active,
+.fdoorbell-buttons a.active {
+    color: #E5002A;
+    background-color:rgba(179, 179, 179, 0);
+}

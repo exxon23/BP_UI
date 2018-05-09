@@ -1,0 +1,15 @@
+.last-analyse {
+    text-align: center;
+    font-weight: bold;
+    color: #495057;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.last-analyse span {
+    margin: 20px 10px 10px;
+    width: 60%;
+}

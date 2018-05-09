@@ -1,0 +1,51 @@
+.doorlock-menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.doorlock-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+.doorlock-ul a {
+    text-decoration: none;
+    color:white;
+}
+
+.doorlock-nav-a {
+    margin: 5px 20px;
+}
+
+.doorlock-nav-btn {
+    display: inline-block;
+    margin: 0px;
+    height:21px;
+    width:160px;
+    color:white;
+    background-color:#E5002A;
+    border-radius: 10px;
+    border: 1px solid #E5002A;
+    outline:none;
+    padding:0px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.doorlock-nav-btn:hover,
+.doorlock-nav-btn:active,
+.doorlock-nav-btn.active {
+    color: #E5002A;
+    background-color:rgba(179, 179, 179, 0);
+}
+
+
+@media (max-width:500px){
+    .doorlock-menu ul  {
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+}

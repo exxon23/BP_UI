@@ -1,0 +1,47 @@
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    height: 30px;
+}
+
+.users span {
+    width: 17%;
+}
+.users i {
+    margin: 0 10px;
+    cursor: pointer;
+}
+.users-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+.users-header span{
+    width: 17%;
+    font-weight: bold;
+}
+
+@media(max-width:900px) {
+    .user {
+        height: 50px;
+        
+    }
+}
+
+@media(max-width:550px) {
+    .user {
+        height: 25px;
+        font-size:8px;
+    }
+    .users-header {
+        font-size: 9px;
+    }
+    .user i {
+        font-size:10px
+    }
+}

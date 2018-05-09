@@ -1,0 +1,25 @@
+.small-stream {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-stream-src {
+    display: block;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 241.98px;
+    height: 321.98px;
+    z-index: -100;
+}
+
+@media (max-width:500px){
+    .small-stream-src {
+        width: 95%;
+        height: auto;
+    }
+}

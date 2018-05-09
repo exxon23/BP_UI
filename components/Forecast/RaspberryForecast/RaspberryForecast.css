@@ -1,0 +1,51 @@
+.raspberry-forecast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-weight: bold;
+    margin: 20px;
+}
+.forecast-el {
+    position: relative;
+    width: 70vw;
+    margin: 10px;
+    padding: 20px;
+    font-weight: 400;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forecast-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 50px;
+    margin-left:50px;
+}
+
+.forecast-message {
+    font-weight: bold;
+}
+.forecast-info {
+    font-size: 12px; 
+}
+.forecast-infoicon {
+    font-size: 30px;
+    color:#ccc;
+    float: left;
+    margin: 0 50px 0 10px;
+    position: absolute;
+    left: 10px;
+    top:auto;
+}
+.forecast-el-icons i{
+    padding: 0 2px;
+    font-size: 20px;
+    color: #E5002A;
+}

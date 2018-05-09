@@ -1,0 +1,33 @@
+.show-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}  
+
+
+.show-user img {
+    float: left;
+    width: 120px;
+    height: 160px;
+    margin: 10px 30px;
+}
+.user-details-heading {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 2px 0px;
+    width: 100px;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+}
+.empty-div {
+    width: 120px;
+    height: 160px;
+    margin: 10px 30px;
+    border: 1px solid #ccc
+}
+    
